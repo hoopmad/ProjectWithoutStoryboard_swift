@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		
+		self.title = "View Controller without Storyboard - swift"
+		self.view.backgroundColor = .orange
+		
 	}
 
 
